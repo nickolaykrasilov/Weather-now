@@ -1,0 +1,85 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+  }
+  
+  .search-box button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .error {
+    display: none;
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .weather {
+    display: none;
+    gap: 10px; 
+  }
+  
+  .weather-image i {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .temp {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .city {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .details .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .details .col i {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .details .col p {
+    margin: 0;
+  }
+
+  .city, .temp, .humidity, .wind, .max, .min {
+    padding: 5px; /* Добавляет внутренний отступ для каждого элемента */
+    border: 1px solid #ddd; /* Добавляет границу вокруг каждого элемента */
+    border-radius: 5px; /* Закругляет углы каждого элемента */
+    background-color: #f9f9f9; /* Добавляет фоновый цвет */
+  }
